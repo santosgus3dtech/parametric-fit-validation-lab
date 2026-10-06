@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parametric-fit-validation-lab"
+version = "1.0.0"
+description = "Generate and validate parametric fit gauges for 3D printing"
+requires-python = ">=3.10"
+
+[project.scripts]
+fitlab = "fitlab.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
