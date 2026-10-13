@@ -1,5 +1,7 @@
 # Parametric Fit Validation Lab
 
+🇧🇷 [Leia este README em Português (Brasil)](README.pt-BR.md).
+
 A small geometry-engineering lab for designing and validating cylindrical 3D-printed fits without proprietary models or third-party reference images.
 
 ![Generated fit analysis](docs/images/fit-analysis.svg)
